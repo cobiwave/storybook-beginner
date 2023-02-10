@@ -14,37 +14,37 @@ export default {
 const Template = args => <Button {...args} />
 
 // Define diferent variation of your component by binding the initial template
-export const Red = Template.bind({})
-Red.args = {
-  backgroundColor: "red",
+export const Teal = Template.bind({})
+Teal.args = {
+  backgroundColor: "teal",
   label: "CTA Label",
   size: "md",
 }
 
-export const Green = Template.bind({})
-Green.args = {
-  backgroundColor: "green",
+export const Purple = Template.bind({})
+Purple.args = {
+  backgroundColor: "purple",
   label: "CTA Label",
   size: "md",
 }
 
 export const Small = Template.bind({})
 Small.args = {
-  backgroundColor: "red",
+  backgroundColor: "teal",
   label: "CTA Label",
   size: "sm",
 }
 
 export const Large = Template.bind({})
 Large.args = {
-  backgroundColor: "red",
+  backgroundColor: "teal",
   label: "CTA Label",
   size: "lg",
 }
 
 export const LongLabel = Template.bind({})
 LongLabel.args = {
-  backgroundColor: "red",
+  backgroundColor: "teal",
   label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   size: "md",
 }

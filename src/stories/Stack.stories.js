@@ -61,11 +61,3 @@ WrapOverflow.args = {
   spacing: 2,
   wrap: true,
 }
-
-export const Empty = Template.bind({})
-Empty.args = {
-  numberOfChildren: 0,
-  direction: "row",
-  spacing: 2,
-  wrap: false,
-}

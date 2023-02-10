@@ -15,7 +15,7 @@ export default {
 // Define the initial template of your component
 const Template = ({ numberOfChildren, ...args }) => (
   <Stack {...args}>
-    {[...Array(numberOfChildren).keys()].map(n => (
+    {[...Array(numberOfChildren).keys()].map(number => (
       <div
         style={{
           width: "50px",
@@ -27,7 +27,7 @@ const Template = ({ numberOfChildren, ...args }) => (
           alignItems: "center",
         }}
       >
-        {n + 1}
+        {number + 1}
       </div>
     ))}
   </Stack>
